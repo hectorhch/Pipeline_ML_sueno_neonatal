@@ -22,8 +22,8 @@ Obtener un modelo entrenado y evaluado que pueda predecir una característica de
 El espacio de estados se representa mediante la siguiente tupla:
 <div align="center">
   
-# $$
-\mathcal{P} = (S, O, S_0, S_g, R)
+$$
+\displaystyle \mathcal{P} = (S, O, S_0, S_g, R)
 $$
 </div>
 
