@@ -9,7 +9,8 @@
 |-------------------------------------------------|--------------------------------------------|
 </div>
 
-## DATOS GENERALES
+## Datos Generales
+
 ● Autor: Héctor Raúl Huarcaya Chipana
 ● Nombre del Curso: Machine Learning
 ● Actividad: Challenge 2
