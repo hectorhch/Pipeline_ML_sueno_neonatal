@@ -4,7 +4,7 @@
 </div>
 
 
-<h2>Título: <span>texto normal</span></h2>
+## Caso: El Sueño en los Primeros Meses de Vida
 
 ## Objetivo: 
 Representar formalmente el problema del análisis y la predicción de patrones de sueño en los recién nacidos mediante un modelo conceptual basado en Inteligencia Artificial y Machine Learning, identificando los estados, operadores y restricciones necesarios para transformar los datos iniciales en un modelo predictivo evaluado.
@@ -111,6 +111,17 @@ Estado inicial (S₀): el problema de predicción está definido, pero todavía 
 Estado objetivo (Sg): se dispone de un modelo de regresión entrenado y evaluado con datos independientes, con métricas registradas, código reproducible y documentación almacenada en GitHub.
 
 El estado objetivo no implica que el modelo sea apto para realizar diagnósticos médicos. Su finalidad es académica y consiste en estudiar la capacidad predictiva de los datos disponibles.
+
+---
+
+## Formulación Matemática de la Transición 
+Cada operador transforma un estado actual en un nuevo estado:
+<div align="center">
+  
+$$
+O_i : S_i \huge \rightarrow S_{i+1}
+$$
+</div>
 
 
 
