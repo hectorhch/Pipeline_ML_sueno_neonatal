@@ -1,4 +1,12 @@
-# Pipeline Machine Learning sueño neonatal
+# Pipeline Machine Learning: Sueño Neonatal
+
+<div align="center">
+  
+| <img src="/Recursos/logoupch.jpg" width="200"/> | <h1>Facultad de Ciencias e Ingeniería - Universidad Peruana Cayetano Heredia</h1>|
+|-------------------------------------------------|----------------------------------------------------------------------------------|
+</div>
+
+
 
 Problema de investigación
 
