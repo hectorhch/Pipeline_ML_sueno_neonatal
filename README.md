@@ -9,9 +9,17 @@
 |-------------------------------------------------|--------------------------------------------|
 </div>
 
+## DATOS GENERALES
+● Autor: Héctor Raúl Huarcaya Chipana
+● Nombre del Curso: Machine Learning
+● Actividad: Challenge 2
+● Unidad: Fundamentos de Machine Learning
+● Semestre: 2026-II
+● Docente: Dr. (c) Yannick Patrick Carrasco Merma
 
 
-Problema de investigación
+
+## Problema de investigación
 
 El sueño durante los primeros meses de vida presenta patrones variables en cuanto a duración, frecuencia y distribución de los ciclos de sueño. Comprender estos patrones resulta importante para identificar tendencias en el desarrollo del sueño infantil y proporcionar información útil para su seguimiento.
 
@@ -21,10 +29,10 @@ Por ello, se propone desarrollar un flujo de aprendizaje basado en Inteligencia 
 
 El proyecto se desarrollará mediante la integración de GitHub, para gestionar y documentar el código fuente y las versiones del proyecto, y Google Colab, para procesar los datos, entrenar los modelos y evaluar sus resultados.
 
-Pregunta del problema
+## Pregunta del problema
 
 ¿De qué manera las técnicas de Machine Learning permiten identificar patrones y predecir características del sueño de los recién nacidos a partir de variables como la edad, la duración de los ciclos de sueño, la actividad motora y las horas totales de descanso?
 
-Delimitación
+## Delimitación
 
 El estudio se centrará en el análisis de datos disponibles sobre el sueño infantil durante los primeros meses de vida. Las predicciones dependerán de la calidad, cantidad y representatividad de los datos utilizados. Los resultados tendrán una finalidad académica y exploratoria, no de diagnóstico médico.
