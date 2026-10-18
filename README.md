@@ -59,3 +59,10 @@ El estudio se centrará en el análisis de datos disponibles sobre el sueño inf
 - Automatización: permite procesar nuevos registros y obtener predicciones sin repetir manualmente todo el análisis.
 
 La ventaja del Machine Learning es que puede aprender relaciones estadísticas a partir de ejemplos y utilizarlas para realizar predicciones sobre datos nuevos. No garantiza predicciones exactas ni demuestra, por sí solo, relaciones causales.
+
+---
+
+Copyright (C) 2026 Héctor Raúl Huarcaya Chipana
+
+This project is licensed under the GNU General Public License
+v3.0. See the LICENSE file for details.
