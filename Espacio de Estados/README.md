@@ -56,6 +56,8 @@ El propósito es encontrar una secuencia de operaciones que permita alcanzar el 
 | **S₇** | Modelo evaluado | Se comparan las predicciones con los valores reales mediante métricas de error. |
 | **Sg** | Objetivo alcanzado | Se obtiene un modelo que cumple los criterios de evaluación y cuyos resultados están documentados. |
 
+En este caso, la variable objetivo será la duración de un ciclo de sueño, expresada en minutos. Las variables de entrada podrán incluir la edad del bebé y otras características disponibles en el conjunto de datos.
+
 <div align="center">
 
 $$
