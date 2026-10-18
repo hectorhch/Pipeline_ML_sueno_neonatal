@@ -19,11 +19,17 @@
 
 ● Unidad: Fundamentos de Machine Learning
 
-● Semestre: 2026-II
-
 ● Docente: Dr. (c) Yannick Patrick Carrasco Merma
 
+● Semestre: 2026-II
 
+
+## Infografía 
+<div align="center">
+  
+<img src="/Recursos/logoupch.png" width="300"/> 
+
+</div>
 
 
 ## Problema de investigación
