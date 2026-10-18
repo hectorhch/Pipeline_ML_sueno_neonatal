@@ -2,7 +2,7 @@
 
 <div align="center">
   
-| <img src="/Recursos/logoupch.png" width="500"/> | <h1>Facultad de Ciencias e Ingeniería </h1>|
+| <img src="/Recursos/logoupch.png" width="300"/> | <h1>Facultad de Ciencias e Ingeniería </h1>|
 |-------------------------------------------------|--------------------------------------------|
 </div>
 
