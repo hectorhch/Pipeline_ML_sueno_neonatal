@@ -23,7 +23,7 @@ El espacio de estados se representa mediante la siguiente tupla:
 
 <div align="center">
 
-# \[
+$$
 MAE = \frac{1}{n}\sum_{i=1}^{n}|y_i-\hat{y}_i|
-\]
+$$
 </div>
