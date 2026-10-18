@@ -27,7 +27,7 @@
 ## Infografía 
 <div align="center">
   
-<img src="/Recursos/infografia.webp" width="300"/> 
+<img src="/Recursos/infografia.webp" width="1000"/> 
 
 </div>
 
