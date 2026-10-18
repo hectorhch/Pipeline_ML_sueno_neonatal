@@ -43,6 +43,7 @@ El propósito es encontrar una secuencia de operaciones que permita alcanzar el 
 ---
 
 ## Definición de los Estados
+Se establecen los siguientes estados para representar el flujo de aprendizaje del proyecto:
 
 | Código | Estado | Descripción | 
 |--------|--------|-------------|
@@ -57,6 +58,25 @@ El propósito es encontrar una secuencia de operaciones que permita alcanzar el 
 | **Sg** | Objetivo alcanzado | Se obtiene un modelo que cumple los criterios de evaluación y cuyos resultados están documentados. |
 
 En este caso, la variable objetivo será la duración de un ciclo de sueño, expresada en minutos. Las variables de entrada podrán incluir la edad del bebé y otras características disponibles en el conjunto de datos.
+
+---
+
+## Definición de los Operadores
+Los operadores representan las acciones que transforman un estado en el siguiente.
+
+| Código | Acción | Transición | 
+|--------|--------|------------|
+| **O₁** | Recopilar o cargar el conjunto de datos. | **S₀ → S₁** |
+| **O₂** | Validar la estructura y calidad de los registros. | **S₁ → S₂** |
+| **O₃** | Limpiar y transformar los datos. | **S₂ → S₃** | 
+| **O₄** | Seleccionar las variables predictoras y la variable objetivo. | **S₃ → S₄** |
+| **O₅** | Dividir los datos en entrenamiento y prueba. | **S₄ → S₅** |
+| **O₆** | Entrenar el modelo de regresión. | **S₅ → S₆** |
+| **O₇** | Evaluar las predicciones con datos de prueba. | **S₆ → S₇** |
+| **O₈** | Verificar los criterios de aceptación y documentar los resultados. | **S₇ → Sg**, si se cumplen los criterios |
+
+Si el modelo no alcanza el desempeño esperado, se ejecuta un operador de ajuste que permite regresar a las etapas de preprocesamiento, selección de variables o entrenamiento. Posteriormente, se vuelve a evaluar el modelo.
+
 
 <div align="center">
 
