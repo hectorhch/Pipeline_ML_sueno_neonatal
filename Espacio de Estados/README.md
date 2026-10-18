@@ -93,7 +93,7 @@ El siguiente diagrama muestra la secuencia de estados, los operadores que permit
 
 <div align="center">
 
-<img src="/Recursos/espacio_estados.png" width="500"/>
+<img src="/Recursos/espacio_estados.png" width="800"/>
 </div>
 <div align="center">
   
@@ -147,5 +147,12 @@ Donde:
 - *ŷᵢ*: duración estimada por el modelo.
 
 Un valor menor de MAE representa un menor error absoluto promedio en las predicciones. El modelo podrá alcanzar el estado objetivo si el error obtenido satisface el umbral de aceptación establecido para el proyecto.
+
+---
+
+## Conclusiones 
+El espacio de estados permite representar formalmente el problema de predicción de la duración de los ciclos de sueño en los recién nacidos. A través de la definición de estados, operadores y restricciones, se establece una secuencia estructurada para transformar los datos iniciales en un modelo de Machine Learning evaluado.
+
+La representación visual facilita la comprensión de las etapas del proyecto y muestra las decisiones necesarias para avanzar o regresar a fases anteriores. Finalmente, la integración de GitHub y Google Colab permite organizar el desarrollo, ejecutar los experimentos y documentar los resultados de forma reproducible.
 
 
