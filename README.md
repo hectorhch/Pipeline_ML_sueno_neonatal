@@ -12,11 +12,17 @@
 ## Datos Generales
 
 ● Autor: Héctor Raúl Huarcaya Chipana
+
 ● Nombre del Curso: Machine Learning
+
 ● Actividad: Challenge 2
+
 ● Unidad: Fundamentos de Machine Learning
+
 ● Semestre: 2026-II
+
 ● Docente: Dr. (c) Yannick Patrick Carrasco Merma
+
 
 
 
