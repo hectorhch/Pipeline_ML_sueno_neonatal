@@ -77,6 +77,38 @@ Los operadores representan las acciones que transforman un estado en el siguient
 
 Si el modelo no alcanza el desempeño esperado, se ejecuta un operador de ajuste que permite regresar a las etapas de preprocesamiento, selección de variables o entrenamiento. Posteriormente, se vuelve a evaluar el modelo.
 
+---
+
+## Definición de las Restricciones
+Las restricciones establecen las condiciones necesarias para garantizar que el proceso sea válido y que las predicciones tengan una base de evaluación confiable.
+
+| Código | Restricción | Aplicación | 
+|--------|-------------|------------|
+| **R₁** | Disponibilidad de datos | El conjunto de datos debe contener registros pertinentes sobre el sueño infantil. |
+| **R₂** | Calidad de los datos | Se deben identificar valores faltantes, duplicados e inconsistencias. |
+| **R₃** | Variable objetivo válida | La duración del ciclo de sueño debe estar registrada mediante valores numéricos válidos. | 
+| **R₄** | Relevancia de las variables | Las características seleccionadas deben tener sentido para la tarea predictiva. |
+| **R₅** | Separación de datos | Los datos de prueba no deben utilizarse para entrenar el modelo. |
+| **R₆** | Evaluación objetiva | El modelo debe evaluarse mediante métricas como MAE y RMSE. |
+| **R₇** | Privacidad | Los datos personales o clínicos identificables de los bebés deben protegerse. |
+| **R₈** | Reproducibilidad | El código, los procedimientos y los resultados deben documentarse en el repositorio de GitHub. |
+
+Para determinar si se alcanza el estado objetivo, se establece como criterio que el modelo obtenga un error de predicción aceptable, definido antes de la evaluación y justificado según las características del conjunto de datos. No se presupone que el modelo cumplirá este criterio antes de entrenarlo y probarlo.
+
+---
+
+## Representación Visual del Espacio de Estados
+El siguiente diagrama muestra la secuencia de estados, los operadores que permiten avanzar y la ruta de retroceso cuando los resultados no son satisfactorios.
+
+<div align="center">
+
+<img src="/Recursos/Imágenes/espacio_estados.jpg" width="500"/>
+  <em>Figura 1. Representación del espacio de estados para el desarrollo de un modelo predictivo del sueño neonatal.</em>
+</div>
+
+
+
+
 
 <div align="center">
 
