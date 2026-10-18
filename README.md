@@ -27,7 +27,7 @@
 ## Infografía 
 <div align="center">
   
-<img src="/Recursos/logoupch.png" width="300"/> 
+<img src="/Recursos/infografia.webp" width="300"/> 
 
 </div>
 
