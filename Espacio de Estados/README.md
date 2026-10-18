@@ -10,6 +10,8 @@ El Sueño en los Primeros Meses de Vida.
 ## Objetivo: 
 Representar formalmente el problema del análisis y la predicción de patrones de sueño en los recién nacidos mediante un modelo conceptual basado en Inteligencia Artificial y Machine Learning, identificando los estados, operadores y restricciones necesarios para transformar los datos iniciales en un modelo predictivo evaluado.
 
+---
+
 El proyecto se centra en analizar variables relacionadas con el sueño infantil, como la edad del bebé, la duración de los ciclos de sueño, la actividad motora y las horas totales de descanso. Para ello, se plantea un flujo de trabajo que integra GitHub para el control de versiones y Google Colab para el procesamiento de datos y el entrenamiento del modelo.
 ## Estado Inicial:
 Se dispone del problema definido, pero todavía no se han preparado los datos ni entrenado el modelo.
@@ -37,6 +39,22 @@ Donde:
 - R (Restricciones): condiciones que deben cumplirse durante el procesamiento de los datos y la construcción del modelo.
 
 El propósito es encontrar una secuencia de operaciones que permita alcanzar el estado objetivo a partir del estado inicial, respetando las restricciones establecidas.
+
+---
+
+## Definición de los Estados
+
+| Código | Estado | Descripción | 
+|--------|--------|-------------|
+| **S₀** | Problema definido | Se establece la necesidad de analizar y predecir características del sueño neonatal. |
+| **S₁** | Datos recopilados | Se dispone de un conjunto de datos con registros de sueño infantil. |
+| **S₂** | Datos validados | Se comprueba la estructura, integridad y calidad de los registros. | 
+| **S₃** | Datos preprocesados | Se tratan valores faltantes, registros duplicados e inconsistencias. |
+| **S₄** | Variables seleccionadas | Se determinan las variables de entrada y la variable objetivo. |
+| **S₅** | Datos divididos | Se separan los datos en conjuntos de entrenamiento y prueba. |
+| **S₆** | Modelo entrenado | Se entrena un algoritmo de regresión con los datos correspondientes. |
+| **S₇** | Modelo evaluado | Se comparan las predicciones con los valores reales mediante métricas de error. |
+| **Sg** | Objetivo alcanzado | Se obtiene un modelo que cumple los criterios de evaluación y cuyos resultados están documentados. |
 
 <div align="center">
 
