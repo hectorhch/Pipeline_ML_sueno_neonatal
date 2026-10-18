@@ -50,3 +50,12 @@ El proyecto se desarrollará mediante la integración de GitHub, para gestionar 
 ## Delimitación
 
 El estudio se centrará en el análisis de datos disponibles sobre el sueño infantil durante los primeros meses de vida. Las predicciones dependerán de la calidad, cantidad y representatividad de los datos utilizados. Los resultados tendrán una finalidad académica y exploratoria, no de diagnóstico médico.
+
+## ¿Por qué se puede abordar mediante Inteligencia Artificial y Machine Learning?
+- Identificación de patrones: permite encontrar relaciones entre la edad del bebé y las características de sus ciclos de sueño.
+- Predicción: posibilita estimar la duración del sueño o de sus ciclos a partir de datos históricos.
+- Clasificación: permite agrupar registros en categorías de patrones de sueño previamente definidas.
+- Análisis de múltiples variables: facilita estudiar conjuntamente la edad, la actividad motora, la lactancia y la duración del descanso, siempre que estas variables estén disponibles.
+- Automatización: permite procesar nuevos registros y obtener predicciones sin repetir manualmente todo el análisis.
+
+La ventaja del Machine Learning es que puede aprender relaciones estadísticas a partir de ejemplos y utilizarlas para realizar predicciones sobre datos nuevos. No garantiza predicciones exactas ni demuestra, por sí solo, relaciones causales.
