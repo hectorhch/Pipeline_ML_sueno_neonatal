@@ -10,15 +10,7 @@ El Sueño en los Primeros Meses de Vida.
 ## Objetivo: 
 Representar formalmente el problema del análisis y la predicción de patrones de sueño en los recién nacidos mediante un modelo conceptual basado en Inteligencia Artificial y Machine Learning, identificando los estados, operadores y restricciones necesarios para transformar los datos iniciales en un modelo predictivo evaluado.
 
----
-
 El proyecto se centra en analizar variables relacionadas con el sueño infantil, como la edad del bebé, la duración de los ciclos de sueño, la actividad motora y las horas totales de descanso. Para ello, se plantea un flujo de trabajo que integra GitHub para el control de versiones y Google Colab para el procesamiento de datos y el entrenamiento del modelo.
-## Estado Inicial:
-Se dispone del problema definido, pero todavía no se han preparado los datos ni entrenado el modelo.
-## Estados Intermedios: 
-Recopilación y validación de datos, preprocesamiento, selección de variables y entrenamiento.
-## Estado Objetivo: 
-Obtener un modelo entrenado y evaluado que pueda predecir una característica del sueño, por ejemplo, la duración de un ciclo de sueño en minutos.
 
 ---
 
@@ -109,6 +101,17 @@ El siguiente diagrama muestra la secuencia de estados, los operadores que permit
 <em>Figura 1. Representación del espacio de estados para el desarrollo de un modelo predictivo del sueño neonatal.</em>
 </div>
 
+El diagrama muestra que el proceso no es necesariamente lineal: si el modelo presenta errores elevados o incumple los criterios establecidos, es posible regresar a una etapa anterior para corregir problemas y realizar nuevas pruebas.
+
+---
+
+## Representación del Estado Inicial y el Estado Objetivo
+
+Estado inicial (S₀): el problema de predicción está definido, pero todavía no se ha completado la preparación de los datos ni el entrenamiento del algoritmo. Se requiere un conjunto de datos adecuado para iniciar el procesamiento.
+
+Estado objetivo (Sg): se dispone de un modelo de regresión entrenado y evaluado con datos independientes, con métricas registradas, código reproducible y documentación almacenada en GitHub.
+
+El estado objetivo no implica que el modelo sea apto para realizar diagnósticos médicos. Su finalidad es académica y consiste en estudiar la capacidad predictiva de los datos disponibles.
 
 
 
