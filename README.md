@@ -2,7 +2,7 @@
 
 <div align="center">
   
-| <img src="/Recursos/logoupch.png" width="200"/> | <h1>Facultad de Ciencias e Ingeniería - Universidad Peruana Cayetano Heredia</h1>|
+| <img src="/Recursos/logoupch.png" width="500"/> | <h1>Facultad de Ciencias e Ingeniería - Universidad Peruana Cayetano Heredia</h1>|
 |-------------------------------------------------|----------------------------------------------------------------------------------|
 </div>
 
