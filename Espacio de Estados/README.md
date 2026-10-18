@@ -23,7 +23,7 @@ El espacio de estados se representa mediante la siguiente tupla:
 <div align="center">
   
 $$
-\displaystyle \mathcal{P} = (S, O, S_0, S_g, R)
+\huge \mathcal{P} = (S, O, S_0, S_g, R)
 $$
 </div>
 
