@@ -1,4 +1,7 @@
-## Pipeline Machine Learning: Sueño Neonatal
+<div align="center">
+
+# Pipeline Machine Learning: Sueño Neonatal
+</div>
 
 <div align="center">
   
