@@ -123,13 +123,28 @@ O_i : S_i \huge \rightarrow S_{i+1}
 $$
 </div>
 
+La secuencia completa del proceso se expresa como:
+<div align="center">
+  
+$$
+S_0 \huge \xrightarrow{O_1} S_1 \xrightarrow{O_2} S_2
+\xrightarrow{O_3} \cdots \xrightarrow{O_8} S_g
+$$
+</div>
 
-
+El modelo de regresión se evaluará mediante el error absoluto medio (MAE), definido como:
 <div align="center">
 
 $$
 MAE = \huge \frac{1}{n}\sum_{i=1}^{n}|y_i-\hat{y}_i|
 $$
 </div>
+
+
+Donde:
+- \(n\): número de observaciones utilizadas en la evaluación.
+- \(y_i\): duración real del ciclo de sueño.
+- \(\hat{y}_i\): duración estimada por el modelo.
+Un valor menor de MAE representa un menor error absoluto promedio en las predicciones. El modelo podrá alcanzar el estado objetivo si el error obtenido satisface el umbral de aceptación establecido para el proyecto.
 
 
