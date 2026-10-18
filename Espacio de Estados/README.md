@@ -20,6 +20,12 @@ Obtener un modelo entrenado y evaluado que pueda predecir una característica de
 
 ## Definición Formal del Problema
 El espacio de estados se representa mediante la siguiente tupla:
+<div align="center">
+  
+$$
+# \mathcal{P} = (S, O, S_0, S_g, R)
+$$
+</div>
 
 <div align="center">
 
@@ -27,3 +33,5 @@ $$
 MAE = \frac{1}{n}\sum_{i=1}^{n}|y_i-\hat{y}_i|
 $$
 </div>
+
+
