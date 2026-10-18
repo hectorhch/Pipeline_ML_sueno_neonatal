@@ -102,7 +102,7 @@ El siguiente diagrama muestra la secuencia de estados, los operadores que permit
 
 <div align="center">
 
-<img src="/Recursos/Imágenes/espacio_estados.jpg" width="500"/>
+<img src="/Recursos/Imágenes/espacio_estados.png" width="500"/>
   <em>Figura 1. Representación del espacio de estados para el desarrollo de un modelo predictivo del sueño neonatal.</em>
 </div>
 
