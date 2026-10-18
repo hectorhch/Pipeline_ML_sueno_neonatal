@@ -19,5 +19,5 @@ La consigna permite utilizar datos sintéticos o un conjunto de datos referencia
 | Variable objetivo | Duración del ciclo de sueño, en minutos | 
 | Variables predictoras | Edad en meses, horas de sueño diarias y actividad motora |  
 | Modelo seleccionado | Random Forest Regressor | 
-| Métricas de evaluación | MAE, RMSE y coeficiente de determinación \(R^2\) |
+| Métricas de evaluación | MAE, RMSE y coeficiente de determinación R² |
 | Herramientas | Python, Google Colab, pandas, scikit-learn y Matplotlib |
