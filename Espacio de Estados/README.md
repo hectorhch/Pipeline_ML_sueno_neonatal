@@ -18,6 +18,8 @@ Recopilación y validación de datos, preprocesamiento, selección de variables 
 ## Estado Objetivo: 
 Obtener un modelo entrenado y evaluado que pueda predecir una característica del sueño, por ejemplo, la duración de un ciclo de sueño en minutos.
 
+---
+
 ## Definición Formal del Problema
 El espacio de estados se representa mediante la siguiente tupla:
 <div align="center">
@@ -26,6 +28,15 @@ $$
 \huge \mathcal{P} = (S, O, S_0, S_g, R)
 $$
 </div>
+
+Donde:
+- S (Estados): conjunto de situaciones por las que pasa el proceso de construcción del modelo predictivo.
+- O (Operadores): acciones que permiten pasar de un estado a otro.
+- S₀ (Estado inicial): situación en la que el problema está definido, pero los datos aún no han sido procesados.
+- Sg (Estado objetivo): situación en la que se dispone de un modelo entrenado, evaluado y documentado.
+- R (Restricciones): condiciones que deben cumplirse durante el procesamiento de los datos y la construcción del modelo.
+
+El propósito es encontrar una secuencia de operaciones que permita alcanzar el estado objetivo a partir del estado inicial, respetando las restricciones establecidas.
 
 <div align="center">
 
