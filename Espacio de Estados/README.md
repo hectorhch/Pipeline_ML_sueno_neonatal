@@ -145,6 +145,7 @@ Donde:
 - \(n\): número de observaciones utilizadas en la evaluación.
 - \(y_i\): duración real del ciclo de sueño.
 - \(\hat{y}_i\): duración estimada por el modelo.
+
 Un valor menor de MAE representa un menor error absoluto promedio en las predicciones. El modelo podrá alcanzar el estado objetivo si el error obtenido satisface el umbral de aceptación establecido para el proyecto.
 
 
