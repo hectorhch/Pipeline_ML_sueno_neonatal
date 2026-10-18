@@ -4,8 +4,7 @@
 </div>
 
 
-## Caso: 
-El Sueño en los Primeros Meses de Vida.
+<h2>Título: <span>texto normal</span></h2>
 
 ## Objetivo: 
 Representar formalmente el problema del análisis y la predicción de patrones de sueño en los recién nacidos mediante un modelo conceptual basado en Inteligencia Artificial y Machine Learning, identificando los estados, operadores y restricciones necesarios para transformar los datos iniciales en un modelo predictivo evaluado.
