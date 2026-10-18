@@ -21,3 +21,5 @@ La consigna permite utilizar datos sintéticos o un conjunto de datos referencia
 | Modelo seleccionado | Random Forest Regressor | 
 | Métricas de evaluación | MAE, RMSE y coeficiente de determinación R² |
 | Herramientas | Python, Google Colab, pandas, scikit-learn y Matplotlib |
+
+Se selecciona Random Forest Regressor porque combina múltiples árboles de decisión y puede representar relaciones no lineales entre las variables. Además, permite obtener una medida de importancia de las características utilizadas por el modelo.
