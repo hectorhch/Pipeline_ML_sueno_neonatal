@@ -27,7 +27,9 @@
 ## Infografía 
 <div align="center">
   
-<img src="/Recursos/infografia.webp" width="1000"/> 
+<img src="/Recursos/infografia.webp" width="1000"/>
+  <em>Infografía "El Sueño en los Primeros de Vida 
+  Infografía proporcionada por el docente para fines académicos. No es de elaboración propia.</em>
 
 </div>
 
