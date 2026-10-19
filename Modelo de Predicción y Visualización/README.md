@@ -1,6 +1,6 @@
 <div align="center">
   
-# Pipeline del Modelo de predicción y Visualización 
+# Pipeline del Modelo de Predicción y Visualización 
 </div>
 
 ## Objetivo
