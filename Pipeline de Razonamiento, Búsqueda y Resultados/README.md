@@ -1,6 +1,6 @@
 <div align="center">
 
-# Pipeline de razonamiento, búsqueda y resultados
+# Pipeline de Razonamiento, Búsqueda y Resultados
 </div>
 
 ## Objetivo
