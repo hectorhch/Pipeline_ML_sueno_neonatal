@@ -21,3 +21,7 @@ Los estados representarán las etapas del análisis y los operadores representar
 Al ejecutar las celdas, el algoritmo BFS encontrará la ruta representada por la secuencia de estados desde S0 hasta Sg, siguiendo las transiciones disponibles.
 
 Este resultado demuestra el funcionamiento de la búsqueda en un espacio de estados. No representa una predicción médica ni evidencia que un modelo real haya alcanzado un desempeño determinado. La aceptación del modelo se deberá comprobar posteriormente con datos de prueba y métricas reales.
+
+---
+
+Pipeline disponible en la carpeta Pipelines-Productos bajo el nombre de Pipeline_Raz_Bus_Resul.ipynb
