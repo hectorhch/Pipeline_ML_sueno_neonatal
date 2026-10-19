@@ -62,6 +62,9 @@ La utilización de Random Forest Regressor permite demostrar cómo construir un 
 
 Sin embargo, el modelo es una demostración académica basada en datos artificiales y no constituye una herramienta clínica validada.
 
+---
+
+Pipeline disponible en la caperta Pipelines-Productos bajo el nombre de Pipeline_Predicc_Visual.ipynb
 
 
 
