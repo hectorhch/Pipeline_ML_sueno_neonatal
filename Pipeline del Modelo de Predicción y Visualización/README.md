@@ -38,3 +38,30 @@ Su elección se justifica por las siguientes características:
 5. Se integra con facilidad en un pipeline de Python mediante la biblioteca scikit-learn.
 
 Como limitación, el modelo depende de la representatividad y calidad de los datos. El uso de datos sintéticos sirve para verificar el funcionamiento técnico, pero no demuestra que el modelo pueda predecir con precisión el sueño de recién nacidos reales.
+
+---
+
+## Resultados e Interpretación
+El notebook produce tres resultados principales:
+
+| Resultado | Interpretación | 
+|-----------|----------------|
+| Métricas MAE, RMSE y R² | Permiten cuantificar el desempeño del modelo sobre los datos de prueba. |
+| Gráfico de valores reales y predichos | Permite identificar visualmente qué tan próximas son las predicciones a los valores generados. |
+| Gráfico de importancia de variables | Permite comparar la contribución relativa de las características dentro del modelo entrenado. | 
+
+Dado que el conjunto de datos es sintético, las conclusiones se limitan a la ejecución y evaluación del procedimiento. Los resultados concretos se obtendrán al ejecutar las celdas en Google Colab.
+
+---
+
+## Conclusión del Pipeline Predictivo
+
+El pipeline implementa las etapas fundamentales de un proyecto de Machine Learning: generación de datos, análisis exploratorio, selección de variables, división de los registros, entrenamiento de un modelo de regresión, evaluación y visualización.
+
+La utilización de Random Forest Regressor permite demostrar cómo construir un sistema que estima una variable numérica asociada al sueño neonatal. Las métricas y los gráficos facilitan interpretar su comportamiento, mientras que la exportación de resultados permite documentar el experimento en GitHub.
+
+Sin embargo, el modelo es una demostración académica basada en datos artificiales y no constituye una herramienta clínica validada.
+
+
+
+
