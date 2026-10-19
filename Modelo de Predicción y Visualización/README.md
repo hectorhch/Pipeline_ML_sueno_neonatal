@@ -23,8 +23,45 @@ Para este desarrollo se utilizarán datos sintéticos, generados con fines acad�
 | Métricas de evaluación | MAE, RMSE y coeficiente de determinación R² |
 | Herramientas | Python, Google Colab, pandas, scikit-learn y Matplotlib |
 
+---
+
+## Sustento del Modelo de Regresión
+El algoritmo seleccionado es Random Forest Regressor, un modelo de aprendizaje supervisado que utiliza múltiples árboles de decisión para producir una predicción numérica.
+
+Su elección se justifica por las siguientes características:
+
+1. Puede representar relaciones no lineales entre las variables predictoras y la duración del ciclo de sueño.
+2. Combina las predicciones de varios árboles, lo que permite construir un modelo más robusto que un único árbol en diversos problemas.
+3. No requiere normalizar las variables numéricas para que el algoritmo pueda entrenarse.
+4. Permite calcular la importancia relativa de las variables.
+5. Se integra con facilidad en un pipeline de Python mediante la biblioteca scikit-learn.
+Como limitación, el modelo depende de la representatividad y calidad de los datos. El uso de datos sintéticos sirve para verificar el funcionamiento técnico, pero no demuestra que el modelo pueda predecir con precisión el sueño de recién nacidos reales.
+
 Se selecciona Random Forest Regressor porque combina múltiples árboles de decisión y puede representar relaciones no lineales entre las variables. Además, permite obtener una medida de importancia de las características utilizadas por el modelo.
 
 ---
+
+## Resultados e Interpretación 
+El notebook produce tres resultados principales:
+
+| Resultado | Interpretación | 
+|-----------|----------------|
+| Métricas MAE, RMSE y R² | Permiten cuantificar el desempeño del modelo sobre los datos de prueba. | 
+| Gráfico de valores reales y predichos | Permite identificar visualmente qué tan próximas son las predicciones a los valores generados. | 
+| Gráfico de importancia de variables | Permite comparar la contribución relativa de las características dentro del modelo entrenado. | 
+
+Dado que el conjunto de datos es sintético, las conclusiones se limitan a la ejecución y evaluación del procedimiento. Los resultados concretos se obtendrán al ejecutar las celdas en Google Colab.
+
+---
+
+## Conclusiones del Pipeline Predictivo
+
+El pipeline implementa las etapas fundamentales de un proyecto de Machine Learning: generación de datos, análisis exploratorio, selección de variables, división de los registros, entrenamiento de un modelo de regresión, evaluación y visualización.
+
+La utilización de Random Forest Regressor permite demostrar cómo construir un sistema que estima una variable numérica asociada al sueño neonatal. Las métricas y los gráficos facilitan interpretar su comportamiento, mientras que la exportación de resultados permite documentar el experimento en GitHub.
+
+Sin embargo, el modelo es una demostración académica basada en datos artificiales y no constituye una herramienta clínica validada.
+
+
 
 
