@@ -64,7 +64,7 @@ Sin embargo, el modelo es una demostración académica basada en datos artificia
 
 ---
 
-Pipeline disponible en la caperta Pipelines-Productos bajo el nombre de Pipeline_Predicc_Visual.ipynb
+Pipeline disponible en la carpeta Pipelines-Productos bajo el nombre de Pipeline_Predicc_Visual.ipynb
 
 
 
